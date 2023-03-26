@@ -1,1 +1,6 @@
-print ('Hello Mundo')
+from tkinter import *
+
+def hello():
+    print ('Hello Mundo') 
+
+hello()
