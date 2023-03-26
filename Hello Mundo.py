@@ -5,6 +5,8 @@ def hello():
     texto_hello["text"] = 'Hello World!'
 
 janela = Tk()
+
+#tamanho da janela
 #janela.geometry('400x400')
 
 janela.title('1º')
@@ -20,5 +22,8 @@ botao.grid(column = 0, row = 2, padx = 10, pady = 10)
 
 texto_hello = Label(janela, text="")
 texto_hello.grid(column = 0, row = 3, padx = 10, pady = 10)
+
+#botao de sair do programa
+#botao2 = Button(janela, text="Quit", command=janela.destroy).grid(column=1, row=0)
 
 janela.mainloop()
