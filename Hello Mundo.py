@@ -1,8 +1,11 @@
 from tkinter import *
 
+i=0
 def hello():
     #print ('Hello Mundo') 
-    texto_hello["text"] = 'Hello World!'
+    global i
+    i+=1
+    texto_hello["text"] = f'Hello World! {i}'
 
 janela = Tk()
 
