@@ -1,6 +1,9 @@
 """E necessário instalar no terminal: pip install pyintaller
 
-comando de terminal para gerar executavel é: pyinstaller --onefile --noconsole .barra invertidaHelloMundo.py nome do arquivo não pode ter espaço"""
+comando de terminal para gerar executavel é: pyinstaller --onefile --noconsole .barra invertidaHelloMundo.py nome do arquivo não pode ter espaço
+
+executável na past dist
+"""
 
 from tkinter import *
 
