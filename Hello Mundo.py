@@ -1,8 +1,18 @@
+"""E necessário instalar no terminal: pip install pyintaller
+
+comando de terminal para gerar executavel é: pyinstaller --onefile --noconsole .barra invertidaHelloMundo.py nome do arquivo não pode ter espaço
+
+executável na past dist
+"""
+
 from tkinter import *
 
+i=0
 def hello():
     #print ('Hello Mundo') 
-    texto_hello["text"] = 'Hello World!'
+    global i
+    i+=1
+    texto_hello["text"] = f'Hello World! {i}'
 
 janela = Tk()
 
