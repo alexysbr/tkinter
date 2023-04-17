@@ -56,8 +56,30 @@ while incompleto:
     indice = randint(0,7)
     if lista[indice] == 0:
         lista[indice] = 1        
-        botao = Button(janela, text = vocabulario[indice], command=())
-        botao.grid(column = 1, row = cont, padx = 10, pady = 10)
+        if(cont == 0):  
+            botaob0 = Button(janela, text = combinado[indice], command=delete_botao)
+            botaob0.grid(column = 1, row = cont, padx = 10, pady = 10)
+        if(cont == 1):  
+            botaob1 = Button(janela, text = combinado[indice], command=())
+            botaob1.grid(column = 1, row = cont, padx = 10, pady = 10)
+        if(cont == 2):  
+            botaob2 = Button(janela, text = combinado[indice], command=())
+            botaob2.grid(column = 1, row = cont, padx = 10, pady = 10)
+        if(cont == 3):  
+            botaob3 = Button(janela, text = combinado[indice], command=())
+            botaob3.grid(column = 1, row = cont, padx = 10, pady = 10)
+        if(cont == 4):  
+            botaob4= Button(janela, text = combinado[indice], command=())
+            botaob4.grid(column = 1, row = cont, padx = 10, pady = 10)
+        if(cont == 5):  
+            botaob5 = Button(janela, text = combinado[indice], command=())
+            botaob5.grid(column = 1, row = cont, padx = 10, pady = 10)
+        if(cont == 6):  
+            botaob6 = Button(janela, text = combinado[indice], command=())
+            botaob6.grid(column = 1, row = cont, padx = 10, pady = 10)
+        if(cont == 7):  
+            botaob7 = Button(janela, text = combinado[indice], command=())
+            botaob7.grid(column = 1, row = cont, padx = 10, pady = 10)
         cont += 1
         #print(f'{lista}')
     if cont == 8:
